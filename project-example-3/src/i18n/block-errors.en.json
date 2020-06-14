@@ -1,0 +1,20 @@
+{
+  "wrong-password": "The password or email is invalid.",
+  "user-not-found": "There is no user record corresponding to this identifier.",
+  "user-disabled": "The user is disabled.",
+  "invalid-email": "The email address is badly formatted.",
+  "email-already-in-use": "The email address is already in use by another account.",
+  "operation-not-allowed": "Операция недоступна.",
+  "weak-password": "Weak password. Password should be at least 6 characters.",
+  "network-request-failed": "Нет подключения к сети.",
+  "error-unknown": "An error has occurred while processing your request... Try later.",
+  "field-is-required": "The field is required",
+  "field-must-be-alpha": "The field must contain only letters",
+  "field-must-be-numeric": "The field must contain only numbers",
+  "field-must-be-latin-alpha-num": "The field must contain only numbers and latin letters",
+  "field-must-be-min-length": "The field must contain at least {length} characters",
+  "field-must-be-max-length": "The field must contain a maximum of {length} characters",
+  "field-must-be-unique-nickname": "This nickname is already in use",
+  "field-must-be-email": "The field must be a valid email address",
+  "field-must-be-phone": "The field must be a valid phone number"
+}

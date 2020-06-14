@@ -1,0 +1,20 @@
+{
+  "meta-title": "Store",
+  "title": "Store",
+  "full-automation": "Full automation:",
+  "customers-search": "Search for customers",
+  "customers-contact": "Customer contact",
+  "warming-respect": "Warming respect",
+  "informing-customers": "Informing customers",
+  "relationship-support": "Relationship support",
+  "registration-by-your-referral-link": "Register by your referral link",
+  "gift-standard-package": "+ BONUS: <em>Custom settings of Automation</em>",
+  "send-1200-current-rate": "Send $500 at the current rate in any of the currencies:",
+  "after-payment": "After payment, in the field below, enter either the address of the purse from which the payment was made, or the address of the transaction and only then click the \"PAID\" button.",
+  "please-be-careful": "Please be careful when sending funds, check the correct addresses",
+  "service-will-be-connected": "The service will be connected within 24 hours from the time of payment confirmation.",
+  "if-you-have-questions": "If you have any questions about the office, or related to the connection of this service, you can always per hour located in the lower right corner of the site.",
+  "payment-completed-at": "Payment completed at:",
+  "payment-confirmed-at": "Payment confirmed at:",
+  "purchased-until": "Purchased until:"
+}

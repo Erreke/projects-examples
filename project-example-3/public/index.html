@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Automaton Quiz</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Automaton Quiz doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+      <div class="pageloader is-active"></div>
+    </div>
+
+    <style>
+      .pageloader,
+      .page-not-found {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        position: fixed;
+        background: #ee44aa;
+        z-index: 1;
+        transition: transform 0.35s ease-out, -webkit-transform 0.35s ease-out;
+        will-change: transform;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+      }
+
+      .pageloader.is-active,
+      .page-not-found.is-active {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+      }
+
+      .pageloader::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        border-radius: 100%;
+        content: "";
+        z-index: 9999;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 0;
+        height: 0;
+        box-sizing: border-box;
+        border: 0 solid #fff;
+        -webkit-animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+
+      .page-not-found .v-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        content: "";
+        z-index: 9999;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        font-size: 52px;
+      }
+
+      .pageloader h1,
+      .page-not-found h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin: 1em 0 0 0;
+        color: #fff;
+      }
+
+      @-webkit-keyframes loader-figure {
+        0% {
+          height: 0;
+          width: 0;
+          background-color: #fff;
+        }
+        29% {
+          background-color: #fff;
+        }
+        30% {
+          height: 2em;
+          width: 2em;
+          background-color: transparent;
+          border-width: 1em;
+          opacity: 1;
+        }
+        100% {
+          height: 2em;
+          width: 2em;
+          border-width: 0;
+          opacity: 0;
+          background-color: transparent;
+        }
+      }
+
+      @keyframes loader-figure {
+        0% {
+          height: 0;
+          width: 0;
+          background-color: #fff;
+        }
+        29% {
+          background-color: #fff;
+        }
+        30% {
+          height: 2em;
+          width: 2em;
+          background-color: transparent;
+          border-width: 1em;
+          opacity: 1;
+        }
+        100% {
+          height: 2em;
+          width: 2em;
+          border-width: 0;
+          opacity: 0;
+          background-color: transparent;
+        }
+      }
+    </style>
+
+    <!-- built files will be auto injected -->
+  </body>
+</html>

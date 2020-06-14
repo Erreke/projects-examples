@@ -1,0 +1,11 @@
+{
+  "popup-title-transfer": "Перевод средств",
+  "beneficiar-email-label": "Е-мейл получателя:",
+  "beneficiar-email-placeholder": "Введите е-мейл получателя",
+  "beneficiar-first-name-label": "Имя получателя:",
+  "beneficiar-second-name-label": "Фамилия получателя:",
+  "amount-label": "Сумма:",
+  "amount-placeholder": "Введите сумму",
+  "cancel-button": "Отмена",
+  "transfer-button": "Перевести"
+}

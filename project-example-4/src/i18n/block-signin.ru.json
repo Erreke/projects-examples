@@ -1,0 +1,12 @@
+{
+  "beginning": "Начало: {time}",
+  "remain-to-start": "До начала осталось: {time}",
+  "duration": "Продолжительность: ~{duration} минут",
+  "enter-to-webinar": "Вход в вебинар",
+  "fullname": "Имя и фамилия",
+  "phone": "Телефонный номер",
+  "code": "Код",
+  "send": "Отправить",
+  "email": "E-mail",
+  "enter": "Войти"
+}

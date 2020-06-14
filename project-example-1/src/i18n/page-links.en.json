@@ -1,0 +1,9 @@
+{
+  "meta-title": "My links",
+  "title": "My links",
+  "project": "Project:",
+  "project-link": "Link:",
+  "link-is-not-set": "Link is not set",
+  "link-for-project": "The referral link for the {projectName} platform",
+  "links-will-appear": "Your own referral links will appear here after we form your link to the {projectName} platform."
+}

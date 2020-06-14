@@ -1,0 +1,5 @@
+{
+  "title-clients-all": "Все клиенты ({count} из {all})",
+  "title-clients-with-archived-account": "Архивированные клиенты ({count} из {all})",
+  "title-clients-with-postpounded-account": "Клиенты, с которыми надо разобраться позднее ({count} из {all})"
+}

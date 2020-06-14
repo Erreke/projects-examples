@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Сгенерировать ссылку</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <div id="app" v-cloak>
+      <section class="container">
+        <h1 class="title">Генератор ссылок</h1>
+
+        <form @submit.prevent="handleSubmit">
+          <div class="field">
+            <label class="label">Ваш WhatsApp-номер:</label>
+            <div class="control has-icons-left has-icons-right">
+              <input @change="handleChange('phone')" @input="handleInput" :class="['input', { 'is-danger': $v.phone.$error }]" placeholder="+77012345678" v-model="phone" type="tel" inputmode="tel" >
+              <span class="icon is-small is-left">
+                <i class="fas fa-phone"></i>
+              </span>
+              <span class="icon is-small is-right" v-if="$v.phone.$error">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+              <div class="help is-danger" v-if="$v.phone.$error && !$v.phone.required">Поле обязательно для заполнения</div>
+              <div class="help is-danger" v-if="$v.phone.$error && !$v.phone.phone">Телефонный номер должен быть в формате +77012345678.</div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Ваш текст:</label>
+            <div class="control has-icons-right">
+              <textarea @change="handleChange('text')" @input="handleInput" :class="['textarea', { 'is-danger': $v.text.$error }]" placeholder="Привет, хочу КУРСО-БОТ..." v-model="text"></textarea>
+              <span class="icon is-small is-right" v-if="$v.text.$error">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+              <div class="help is-danger" v-if="$v.text.$error && !$v.text.required">Поле обязательно для заполнения</div>
+            </div>
+          </div>
+
+          <div class="field is-grouped">
+            <div class="control">
+              <button type="submit" class="button is-link" :disabled="isButtonDisabled">{{ buttonText }}</button>
+            </div>
+          </div>
+        </form>
+
+        <div class="notification is-success" v-if="isShowSuccessNotification">
+          <button class="delete" @click="closeNotifications"></button>
+          Ссылка успешно скопирована
+        </div>
+
+        <div class="notification is-danger" v-if="isShowFailNotification">
+          <button class="delete" @click="closeNotifications"></button>
+          Не удалось скопировать ссылку. Попробуйте сделать  это вручную
+        </div>
+
+        <figure class="highlight" v-if="link">
+          <p class="subtitle">Ваша ссылка:</p>
+          <p><a class="link" :href="link">{{ link }}</a></p>
+          <button class="button is-small bd-copy" @click.prevent="handleCopy">Скопировать</button>
+        </figure>
+      </section>
+    </div>
+  </body>
+</html>

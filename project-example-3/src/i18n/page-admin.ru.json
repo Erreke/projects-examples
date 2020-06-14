@@ -1,0 +1,21 @@
+{
+  "meta-title": "Админпанель",
+  "title-first": "Админ",
+  "title-second": "панель",
+  "quizes": "Квизы",
+  "quiz-loading": "Загружаем квизы...",
+  "you-do-not-have-quizes": "Пока у Вас нет квизов",
+  "quiz-duplicate-title": "Дублирование квиза",
+  "quiz-delete-confirmation-title": "Удаление квиза",
+  "are-you-sure-deleting": "Вы уверены, что хотите удалить квиз «{quiz}»?",
+  "cancel": "Отмена",
+  "duplicate":"Дублировать",
+  "delete":"Удалить",
+  "caption-label-placeholder": "Заголовок",
+  "amo-pipeline-label-placeholder": "ID воронки в amoCRM",
+  "amo-tags-label-placeholder": "Теги для amoCRM",
+  "create-new": "Создать новый",
+  "tooltip-edit": "Редактировать",
+  "tooltip-duplicate": "Дублировать",
+  "tooltip-delete": "Удалить"
+}

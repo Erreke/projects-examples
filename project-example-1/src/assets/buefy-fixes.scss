@@ -1,0 +1,25 @@
+@import '~bulma/sass/utilities/initial-variables.sass';
+
+$mobile: 250px !default;
+$tablet: 426px !default;
+$desktop: 769px !default;
+$widescreen: 1025px !default;
+$fullhd: 1441px !default;
+
+.loading-overlay.is-active {
+  z-index: 1;
+}
+
+.notices {
+  z-index: 41!important;
+}
+
+.notices .snackbar .text strong {
+  color: whitesmoke;
+}
+
+.b-tabs .tab-content {
+  @media (max-width: $tablet) {
+    padding: 1rem 0 0;
+  }
+}

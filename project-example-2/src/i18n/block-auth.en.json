@@ -1,0 +1,22 @@
+{
+  "email": "E-mail",
+  "password": "Password",
+  "sign-in": "Sign In",
+  "sign-up": "Sign Up",
+  "cancel": "Cancel",
+  "email-placeholder": " Your email address",
+  "password-placeholder": "Your password",
+  "re-password-placeholder": "Confirm your password",
+  "name-placeholder": "Your name",
+  "phone-placeholder": "Telephone number",
+  "country-placeholder": "Country",
+  "city-placeholder": "City",
+  "curator-placeholder": "Who invited №",
+  "forget-password": "Forget password?",
+  "remind": "Remind",
+  "gender-male": "Male",
+  "gender-female": "Female",
+  "agreement": "I agree to the processing personal data and conditions of use",
+  "password-successfully-changed": "Your password has been successfully changed.",
+  "check-mail": "Check mail. You have received a letter with a message how to recover your password."
+}

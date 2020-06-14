@@ -1,0 +1,17 @@
+{
+  "meta-title": "Курсы",
+  "title": "Мои курсы",
+  "start-study": "Начать обучение",
+  "author": "Автор: {author}",
+  "duration": "Длительность: {duration}",
+  "rating": "Рейтинг:",
+  "rating-voters-count": "({count} оценок)",
+  "no-rating-voters-count": "(оценок нет)",
+  "category": "Категория: {category}",
+  "tags": "Теги: {tags}",
+  "lessons-count": "Количество лекции: {count}",
+  "students-count": "Количество студентов: {count}",
+  "languages": "Языки: {languages}",
+  "subtitles": "Субтитры: {subtitles}",
+  "updated-at": "Обновлено: {date}"
+}

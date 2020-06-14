@@ -1,0 +1,250 @@
+@media (min-width:769px) and (max-width:1087px) {
+  .page_wrap {
+    background-size: 120%;
+  }
+
+  .home__w-50 {
+    width: auto;
+  }
+
+  .jumbotron {
+    padding: 9em 5em 0;
+
+    &__title {
+      font-size: 2.5em;
+      width: 500px;
+    }
+  }
+
+  .benefit {
+    padding: 5em 5em 10em;
+    background-size: 179%;
+
+    &__desc {
+      display: block;
+    }
+
+    &__items {
+      padding: 0 3em;
+    }
+  }
+
+  .roadmap {
+    padding: 0 5em 10em;
+
+    &__graph {
+      display: block;
+
+      &-desc {
+        padding: 0 8em;
+      }
+    }
+
+    .sc_title,
+    .sc_item_title {
+      margin: 0;
+    }
+  }
+
+  .feedbacks {
+    padding: 0 2em 10em;
+  }
+
+  .history {
+    background-size: 139%;
+  }
+
+  .team {
+    padding: 0 1em 10em;
+  }
+
+  .how-it-works {
+    &__graph {
+      &-instime {
+        background-position: right 14px top 30px;
+        top: 10%;
+        width: 126%;
+        left: -71%;
+        padding: 9px 60px 9px 5px;
+        text-align: right;
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 4px;
+      }
+
+      &-automaton {
+        background-position: right 10px top 28px;
+        background-size: 42px;
+        top: 45%;
+        width: 99%;
+        left: -74%;
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 4px;
+        padding: 9px 60px 9px 5px;
+      }
+
+      &-people {
+        background-position: right 10px top 23px;
+        background-size: 9%;
+        top: 76%;
+        width: 120%;
+        left: -78%;
+        background-color: rgba(0, 0, 0, .6);
+        padding: 9px 50px 9px 5px;
+        border-radius: 4px;
+      }
+
+      &-result {
+        background-position: 12px 50%;
+        background-size: 20%;
+        top: 37%;
+        width: 92%;
+        left: 76%;
+        padding-left: 92px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 9px 5px 9px 92px;
+        border-radius: 4px;
+      }
+    }
+
+    iframe {
+      height: calc(768px / 1.77777777777778);
+    }
+  }
+
+  .sc_icons_item_title {
+    padding: 0 3em;
+  }
+
+  .sc_item_title+.sc_item_content {
+    margin-top: 1.5em
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 32px
+  }
+
+  h1,h2,h3 {
+    margin-bottom: 18px
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 30px
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 28px
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 26px;
+    margin-bottom: 16px
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-bottom: 14px
+  }
+
+  h6 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 22px;
+    margin-bottom: 10px
+  }
+
+  .footer_wrap .sc_content .wpb_column+.wpb_column {
+    margin-top: 30px!important;
+    padding-top: 30px!important;
+    border-top-width: 1px;
+    border-top-style: solid
+  }
+
+  .sc_padding_large {
+    padding: 8em 5% 0
+  }
+
+  .sc_content_width_50p {
+    width: 100%
+  }
+
+  .footer_wrap .sc_content .wpb_column:not(.vc_col-sm-12) {
+    width: 100%!important
+  }
+
+  .menu_mobile .social_item .social_icon {
+    font-size: 1.5em;
+    margin-right: 0
+  }
+
+  .sc_button.sc_button_size_large {
+    padding: 15px 40px 17px
+  }
+
+  .menu_mobile .social_item {
+    margin: 1em 1.4em 0 0;
+    text-align: center
+  }
+
+  .menu_mobile .social_item:last-child {
+    margin-right: 0
+  }
+
+  ul[class*=trx_addons_list][class*=_circled]>li::before {
+    left: -2.7em;
+    top: .1em
+  }
+
+  .raised_text.trx_column_20 {
+    display: none
+  }
+
+  .raised_text.trx_column_15 {
+    width: 100%
+  }
+
+  .sc_item_title.sc_item_title_style_accent.sc_align_center::before {
+    margin-top: -5px
+  }
+
+  .vc_column_container>.vc_column-inner {
+    padding-left: 10px;
+    padding-right: 10px
+  }
+
+  .sc_item_title.sc_item_title_style_accent.sc_align_center {
+    padding-top: .8em
+  }
+
+  .sc_testimonials_item_author_avatar::before {
+    left: 54%;
+    top: 4px
+  }
+
+  .sc_item_title {
+    letter-spacing: 0
+  }
+
+  .vc_row {
+    margin-left: -10px;
+    margin-right: -10px
+  }
+
+  .sc_layouts_hide_on_tablet {
+    display: none!important
+  }
+
+  .sc_team.sc_team_short .sc_team_columns_wrap .trx_addons_column-1_4 {
+    width: 33.333%
+  }
+}

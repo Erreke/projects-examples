@@ -1,0 +1,49 @@
+{
+  "meta-title": "Маркетинговые показатели аудитории",
+  "tab-growth": "Прирост аудитории",
+  "tab-gender": "Гендерные показатели",
+  "tab-age": "Возрастные группы",
+  "tab-geo": "Топ-10 география",
+
+  "label-growth": "Прирост аудитории (шт.)",
+  "label-gender-male": "Мужчины (%)",
+  "label-gender-female": "Женщины (%)",
+  "label-age-under-18": "Меньше 18 лет (%)",
+  "label-age-between-18-25": "От 18 до 25 лет (%)",
+  "label-age-between-26-35": "От 26 до 35 лет (%)",
+  "label-age-between-36-55": "От 36 до 55 лет (%)",
+  "label-age-between-56-85": "От 56 до 85 лет (%)",
+  "label-age-more-85": "Больше 85 лет (%)",
+  "label-age-unknown": "Неизвестный возраст (%)",
+  "label-summ-all-fields": "Сумма всех полей (%)",
+  "label-country": "Страна",
+  "label-city": "Город",
+
+  "placeholder-country": "Введите название страны",
+  "placeholder-city": "Введите название города",
+
+  "button-create": "Создать",
+  "button-edit": "Изменить",
+  "button-save": "Сохранить",
+  "button-delete": "Удалить",
+  "button-cancel": "Отмена",
+  "button-add-to-chart": "Добавить в график",
+
+  "chart-no-data": "На выбранную дату данных нет",
+  "chart-start-drag-sliders": "Начните передвигать слайдеры",
+  "chart-add-and-start-drag-sliders": "Добавьте город и начните передвигать слайдеры",
+
+  "collapse-show-cities": "Раскрыть доступные города",
+  "collapse-hide-cities": "Скрыть города",
+
+  "modal-edit-city-title": "Редактирование города",
+  "modal-add-city-title": "Добавление нового города",
+
+  "dialog-indicator-delete-title": "Удаление показателя",
+  "dialog-indicator-delete-text": "Вы уверены, что хотите удалить показатель за <b>{date}</b>? Данное действие нельзя отменить.",
+  "dialog-indicator-deleted": "Показатель успешно удален",
+  "dialog-city-delete-title": "Удаление города",
+  "dialog-city-delete-text": "Вы уверены, что хотите удалить город <b>{city}</b>? Данное действие нельзя отменить.",
+  "dialog-city-deleted": "Город успешно удален"
+
+}

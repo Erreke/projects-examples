@@ -1,0 +1,7 @@
+{
+  "auth": "Authorization",
+  "email": "E-mail",
+  "password": "Password",
+  "sign-in": "Sign In",
+  "sign-out": "Sign Out"
+}

@@ -1,0 +1,9 @@
+{
+  "popup-title-withdrawal": "Вывод средств на карту",
+  "card-number-label": "Номер карты:",
+  "card-number-placeholder": "Номер вашей карты",
+  "amount-label": "Сумма:",
+  "amount-placeholder": "Введите сумму",
+  "cancel-button": "Отмена",
+  "withdrawal-button": "Вывести"
+}

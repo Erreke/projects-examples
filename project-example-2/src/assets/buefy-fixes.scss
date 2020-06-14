@@ -1,0 +1,21 @@
+@import "./variables.scss";
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+.loading-overlay.is-active {
+  z-index: 1;
+}
+
+.notices {
+  z-index: 41!important;
+}
+
+.notices .snackbar .text strong {
+  color: whitesmoke;
+}
+
+.b-tabs .tab-content {
+  @include until($desktop) {
+    padding: 1rem 0 0;
+  }
+}

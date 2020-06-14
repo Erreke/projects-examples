@@ -1,0 +1,5 @@
+node_modules
+dist
+public
+amocrm-config.json
+firebase-config.json

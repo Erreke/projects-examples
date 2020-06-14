@@ -1,0 +1,17 @@
+{
+  "meta-title": "Очередь за получением реферала ({count})",
+
+  "th-first-name": "Имя",
+  "th-second-name": "Фамилия",
+  "th-phone": "Телефон",
+  "th-email": "E-mail",
+  "th-referral-link": "Реферальная ссылка",
+  "th-auto-referrals": "Авторефералы",
+  "th-referrals": "Рефералы",
+
+  "th-registered-at": "Дата регистрации",
+  "th-transaction-confirmed-at": "Транзакция подтверждена",
+
+  "nobody-found": "Никого не найдено",
+  "loading": "Идет загрузка..."
+}

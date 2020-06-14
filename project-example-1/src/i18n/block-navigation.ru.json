@@ -1,0 +1,24 @@
+{
+  "welcome": "Добро пожаловать",
+  "dashboard": "Аналитика",
+  "finances": "Финансы",
+  "profile": "Профиль",
+  "tariffs": "Тарифы",
+  "store": "Магазин",
+  "links": "Ссылки",
+  "partners": "Партнеры",
+  "faq": "Вопросы-Ответы",
+  "whats-new": "Что нового?",
+
+  "admin-analytics": "Аналитика",
+  "admin-clients": "Клиенты",
+  "admin-tariffs": "Купленные тарифы",
+  "admin-finances": "Финансы",
+  "admin-profile": "Профиль",
+  "admin-queue": "Очередь",
+  "admin-marketing-indicators": "Маркетинговые показатели",
+  "admin-redirects": "Редиректы",
+  "admin-carousel": "Карусель",
+  "admin-leads": "Лиды",
+  "admin-coursebot-ads": "Заказ рекламы на курсобот"
+}

@@ -1,0 +1,16 @@
+export default {
+  items: [],
+  isLoading: false,
+  isSelectedPackageSaving: false,
+  isAttemptingToPayInstime: false,
+  isAttemptingToPay: false,
+  instimePayAttemptingError: null,
+  automatonPayAttemptingError: null,
+  isInstimePaymentInfoChecking: false,
+  instimePaymentInfoCheckingError: null,
+  isPaymentInfoChecking: false,
+  automatonPaymentInfoCheckingError: null,
+  isBusinessPlaceFieldSaving: false,
+  businessPlaceFieldSavingErrors: [],
+  isBuyCancelling: false,
+};

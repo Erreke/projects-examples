@@ -1,0 +1,4 @@
+{
+  "enter-wallet-transaction": "Enter either the wallet address or the transaction address here.",
+  "not-empty-transaction": "Wallet address or transaction address must not be empty"
+}

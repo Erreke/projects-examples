@@ -1,0 +1,170 @@
+@media (min-width:1473px) {
+  .home__w-50 {
+    width: 70%;
+  }
+
+  .jumbotron {
+    padding: 22em 20em 0;
+
+    &__header {
+      margin: 0 0 14em;
+    }
+
+    .home__w-50 {
+      width: 65%;
+    }
+  }
+
+  .benefit {
+    padding: 2em 10em 10em;
+
+    &__video {
+      padding: 28% 0 16%;
+    }
+  }
+
+  .history {
+    padding: 0 10em 10em;
+  }
+
+  .feedbacks {
+    padding: 0 10em 10em;
+  }
+
+  .roadmap {
+    padding: 0 10em 10em;
+  }
+
+  .how-it-works {
+    background-position: 50% 40%;
+    height: 842px;
+    margin: 0 0 10em;
+    padding: 0 10em 0;
+
+    &__graph {
+      &-instime {
+        background-position: right 14px top 30px;
+        top: 10%;
+        width: 150%;
+        left: -150%;
+        padding-right: 60px;
+        text-align: right;
+      }
+
+      &-automaton {
+        background-position: 100% 14px;
+        background-size: 42px;
+        top: 40%;
+        width: 130%;
+        left: -162%;
+      }
+
+      &-people {
+        background-position: 100% 50%;
+        background-size: 9%;
+        top: 78%;
+        width: 120%;
+        left: -138%;
+        padding-right: 50px;
+      }
+
+      &-result {
+        background-position: 0 15px;
+        background-size: 20%;
+        top: 40%;
+        width: 150%;
+        left: 128%;
+      }
+    }
+
+    iframe {
+      height: calc(1130px / 1.77777777777778);
+      margin: 2em auto 3em;
+      display: block;
+    }
+
+    .home__w-50 {
+      width: 50%;
+    }
+  }
+
+  .faq {
+    padding: 0 10em 10em;
+  }
+
+  .team {
+    padding: 0 10em 10em;
+  }
+
+  .footer {
+    padding: 3em 10em 6em;
+
+     .home__w-50 {
+      width: 50%;
+    }
+  }
+
+  .top_panel {
+    padding: 1em 10em;
+  }
+
+  .sc_icons_item_title {
+    padding: 0 2em;
+  }
+
+  .sc_team.sc_team_short .sc_team_columns_wrap .trx_addons_column-1_4 {
+    width: 20%
+  }
+
+  .sc_item_title+.sc_item_content {
+    margin-top: 2em
+  }
+
+  .sc_layouts_row .sc_button {
+    font-size: 12px;
+    padding: 1.5em
+  }
+
+  .sc_layouts_row .sc_layouts_logo img {
+    max-height: 4.5em
+  }
+
+  .sc_layouts_row_type_compact .sc_layouts_logo img {
+    max-height: 3.5em
+  }
+
+  .padding_null.wpb_text_column {
+    padding-left: 20px!important
+  }
+
+  .give-goal-progress.trx_column_60 {
+    padding: 12px
+  }
+
+  .sc_layouts_row_type_compact .sc_button:not(.sc_button_simple) {
+    font-size: 15px
+  }
+
+  .sc_layouts_row:not(.sc_layouts_row_type_narrow),
+  .sc_layouts_row:not(.sc_layouts_row_type_narrow) input[type=text] {
+    font-size: 14px
+  }
+
+  .goal-text-current-donation-title,.goal-text-total-amount-title {
+    min-width: 12.5em
+  }
+
+  .sc_button {
+    font-size: 15px;
+    padding: 15px 45px 16px
+  }
+
+  .vc_col-sm-6 {
+    width: 50%
+  }
+
+  .sc_layouts_hide_on_notebook,
+  .sc_layouts_hide_on_desktop {
+    display: none!important
+  }
+}

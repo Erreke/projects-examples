@@ -1,0 +1,33 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    match /users/{userId} {
+      allow create, read, update, delete: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      allow read, update: if request.auth.uid == userId;
+      allow create, read: if request.auth.uid != null;
+    }
+
+    match /quizes/{quizId} {
+      allow create, read, update, delete: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      allow read: if true;
+    }
+
+    match /questions/{questionId} {
+      allow create, read, update, delete: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      allow read: if true;
+    }
+
+    match /answers/{answerId} {
+      allow create, read, update, delete: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      allow create, read: if true;
+    }
+
+    match /results/{resultId} {
+      allow create, read, update, delete: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      allow create, read: if true;
+    }
+  }
+}

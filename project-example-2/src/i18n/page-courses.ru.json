@@ -1,0 +1,9 @@
+{
+  "meta-title": "Курсы",
+  "title": "Курсы",
+  "continue-study": "Продолжить изучение",
+  "start-study": "Записаться на курс",
+  "rating-voters-count": "({count} оценок)",
+  "no-rating-voters-count": "(оценок нет)",
+  "placeholder-search": "Поиск по названию, аннотации, тегам и автору..."
+}

@@ -1,0 +1,48 @@
+[v-cloak] {
+  display: none;
+}
+
+.container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+form {
+  margin: 0 0 2rem;
+}
+
+.highlight {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  color: #586e75;
+  padding: 1rem;
+  position: relative;
+
+  .bd-copy {
+    background: 0 0;
+    border: none;
+    color: #4a4a4a;
+    cursor: pointer;
+    font-size: .625rem;
+    outline: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: absolute;
+    right: .25rem;
+    top: .25rem;
+  }
+  
+  .bd-copy:hover {
+    background-color: #ffdd57;
+    color: rgba(0,0,0,.7);
+  }
+  
+  .subtitle {
+    margin-bottom: 0.5rem;
+  }
+  
+  .link {
+    word-break: break-all;
+  }
+}

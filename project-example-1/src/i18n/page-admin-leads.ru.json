@@ -1,0 +1,16 @@
+{
+  "meta-title": "Просмотр лидов",
+  "title": "Лиды ({count})",
+  "column-first-name": "Имя",
+  "column-phone": "Телефон",
+  "column-email": "E-mail",
+  "column-created-at": "Создан",
+  "loading": "Идет загрузка...",
+  "nothing-found": "По вашему запросу ничего не найдено",
+  "you-dont-have-redirects": "Еще не было ни одной заявки",
+  "showed-leads": "Показано заявок: {count} из {total}",
+  "searching": "Поиск...",
+  "show-columns": "Показывать колонки ({count} из {total})",
+  "show-all": "Показать все",
+  "show-per-page": "Показывать по {perPage}"
+}
